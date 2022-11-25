@@ -1,0 +1,95 @@
+body{
+    background-image: url(bhutan2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    
+}
+.form{
+    padding-left: 38%;
+}
+
+.form  >div{
+    padding-bottom: 3%;
+}
+
+input[type=text], input[type=email],input[type=number],input[type=checkbox]{
+    font-family:  'Aldrich';
+    font-size: small;
+    background-color: rgba(135, 206, 235,0.1);
+    color: black;
+    
+}
+
+p{
+    font-family:  'Aldrich';
+    font-size: small;
+}
+
+
+.agreement{
+    padding-top: 30px;
+}
+
+
+.attachment input{
+    background-color: rgba(135, 206, 235,0.1);
+    font-family: 'Aldrich';
+}
+.row{
+    padding-top: 10px;
+    font-size: large;
+}
+.agreement{
+    padding-bottom: 10px;
+}
+.attachment input{
+    padding-top: 5px;
+}
+
+.container1{
+    background-color: antiquewhite;
+    opacity: 0.88;
+    padding: 12% 2% 40% 3%;
+    width: 50%;
+    border: none;
+    border-radius: 12px;
+}
+
+#button-add{
+    border: none;
+    outline: none;
+    padding: 12px 14px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.88;
+}
+#button-add:hover{
+    background-color: #ddd;
+}
+table{
+    border-collapse: collapse;  
+    width: auto;
+}
+th {
+    border: 2px solid #dddddd06;
+}
+td {
+    border: 1px solid #dddddd;
+    padding-right: 10px;   
+}
+/* Responsive layout - when screen size is 720 at max*/
+@media screen and (max-width: 720px) {
+    .container1 {
+        width: 90%;
+        margin-top: 0;
+    }
+    .container2 {
+        width: 90%;
+        margin-top: 0;
+    }
+    .col-1, .col-2{
+        width: 100%;
+    }
+}

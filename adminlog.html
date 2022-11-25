@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/registration.css">
+    
+
+    <title>Registration</title>
+</head>
+<body>
+     <!-- header section start here  -->
+     <header class="header">
+        <div class="logoContent">
+            <a href="index.html"><h1 class="logoName"></h1></a>
+        </div>
+<!-- 
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+            <a href="admin.html">admin</a>
+        </nav> -->
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <form class="form">
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/registration.css">
+    
+
+    <title>Registration</title>
+</head>
+<body>
+     <!-- header section start here  -->
+     <header class="header">
+        <div class="logoContent">
+            <a href="index.html"><h1 class="logoName"> </h1></a>
+        </div>
+
+        <!-- <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav> -->
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <form class="form" name="Form">
+    <div class="container1">
+        <h3>Enter the Detail</h3>
+        <div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="UserName">Username : </label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="uname" name="Username" placeholder="USERNAME">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="PassWord">Password : </label>
+                </div>
+                <div class="col-2">
+                    <input type="password" id="passwd" name="Password" placeholder="Password">
+                </div>
+            </div>
+            <div class="row">
+                <input type="button" id="button-add" value="Login" onClick="myFunction();val()">
+            </div>
+        </div>
+    </div>
+    </form>
+    <!-- home section end here  -->
+    <footer class="footer" id="contact">
+        <div class="share">
+            <p>Follow Us at: </p><br>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+    </footer>
+
+    <!-- custom js file  -->
+    <script>
+        function val(){
+            if(document.Form.Username.value==""||document.Form.b.value=="" || document.Form.Password.value==""){
+                alert("Please fill in all the required field")
+            }
+            else{
+                return true
+            }
+        }
+        function myFunction(){
+            var un = document.getElementById("uname").value;
+            var pw = document.getElementById("passwd").value;
+            if(un=="tsktsk" && pw=="1234"){
+                window.location.href="admin.html";
+            }
+            else{
+                alert("Invalid credential");
+            }
+        }
+    </script>
+<script src="js/index.js"></script>
+</body>
+</html>

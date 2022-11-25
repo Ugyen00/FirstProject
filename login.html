@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login & Signup Form</title>
+	<link rel="stylesheet" href="/css/login.css">
+</head>
+<body> 
+	<div class="center">
+	<div class="btns">
+	<a class="a1" href="#">Sign up</a>
+	<a class="a2" href="#">Log in</a>			
+	</div>
+	<div class="signup-form">
+	<div class="header">Signup For Free</div>
+	<div class="signup_error"></div>
+
+	<form action="/index.html" name="signupForm" method="get" onsubmit="return signupValid()">
+	<input type="text" name="firstname" placeholder="First Name" autocomplete="off">
+	<input class="lstname" name="lastname" type="text" placeholder="Last Name" autocomplete="off">	
+	<input class="email" name="email" type="text" placeholder="Email or Phone" autocomplete="off">	
+	<input class="email" name="password" type="password" placeholder="Password" autocomplete="off">
+	<input type="submit" value="Signup">
+	</form>
+
+    </div>
+    <div class="login-form">
+	<div class="header header1">Login For Free</div>
+	<div class="login_error"></div>
+	<form action="/index.html" name="loginForm" method="get" onsubmit="return loginValid()">	
+	<input class="email" name="lemail" type="text" placeholder="Email or Phone" autocomplete="off">	
+	<input class="email" name="lpassword" type="password" placeholder="Password" autocomplete="off">
+	<input type="submit" value="Login">
+	</form>
+    </div>
+	</div>
+
+	<script src="/js/login.js"></script>
+	<script src="/js/login_valid.js"></script>
+
+</body>
+</html>

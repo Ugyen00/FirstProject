@@ -1,0 +1,103 @@
+.nav_links ul li {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  line-height: 50px;
+  list-style: none;
+  height: 50px;
+  width: 120px;
+  border: 2px solid beige;
+  text-align: center;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 26px;
+}
+.nav_links {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 10;
+}
+.nav_links ul a {
+  color: black;
+  text-decoration: none;
+}
+.nav_links ul li:hover {
+  background-color: #00ffff;
+}
+.nav_links ul ul {
+  position: relative;
+  display: none;
+  margin-right: -25px;
+}
+.nav_links ul ul li {
+  line-height: 15px;
+  margin-top: 0px;
+  height: 20px;
+}
+.nav_links ul li:hover > ul {
+  display: block;
+}
+.logo {
+  float: left;
+  padding: 10px;
+  width: 15%;
+}
+footer {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid black; */
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.footlogo {
+  /* border: 2px solid black; */
+  width: 20%;
+  height: 100%;
+}
+.GIT {
+  /* border: 2px solid black; */
+  width: 20%;
+  height: 100%;
+  margin-top: -505px;
+  margin-left: 40%;
+  font-size: small;
+  font-family: "Avenir Next";
+  font-weight: normal;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+.FIND {
+  /* border: 2px solid black; */
+  width: 20%;
+  height: 100%;
+  margin-top: -505px;
+  margin-left: 80%;
+}
+.footlogo img {
+  margin-top: 40%;
+  width: 100%;
+}
+footer span {
+  font-size: small;
+  font-family: "Avenir Next";
+  font-weight: normal;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+#fb {
+  width: 50px;
+  height: 50px;
+}
+#insta {
+  width: 40px;
+  height: 40px;
+}
+.GIT a {
+  text-decoration: none;
+  font-family: "Avenir Next";
+  font-weight: normal;
+}

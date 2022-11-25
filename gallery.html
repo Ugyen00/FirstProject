@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="index.html"><h1 class="logoName">PV deal </h1></a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+            <a href="admin.html">admin</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+        <!-- MAIN (Center website) -->
+
+<div class="main">
+    <h2>GALLERY</h2>
+    
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('lands')">Lands</button>
+      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column lands">
+        <div class="content">
+          <img src="land1.jpg" alt="Mountains" style="width:100%">
+          <h4>Gadazhingkha</h4>
+          <p>Location: Paro<br>
+            Land area: 21 decimal<br>
+            Rate: Nu.400000/- <br>
+            <button class="btn2"><a href="registration.html">Buy</a></button>
+          </p>
+        </div>
+      </div>
+      <div class="column lands">
+        <div class="content">
+        <img src="land2.jpg" alt="Lights" style="width:100%">
+          <h4>Samtse</h4>
+          <p>Location: Samtse<br>
+            Land area: 25 decimal<br>
+            Rate: Nu.95000/-<br>
+            <button class="btn2"><a href="registration.html">Buy</a></button>
+
+          </p>
+        </div>
+      </div>
+      <div class="column lands">
+        <div class="content">
+        <img src="land3.png" alt="Nature" style="width:100%">
+          <h4>Sangaygang</h4>
+          <p>Location: Thimphu<br>
+            Land area: 15 decimal<br>
+            Rate: Nu.900000/-<br>
+            <button class="btn2"><a href="registration.html">Buy</a></button>
+
+          </p>
+        </div>
+      </div>
+      
+      <div class="column cars">
+        <div class="content">
+          <img src="car1.jpg" alt="Car" style="width:100%">
+          <h4>Grand i10</h4>
+          <p>
+              Company: Hyundai<br>
+              Rate: Nu.700000/- <br>
+              Location: Wangdue Phodrang<br>
+              <button class="btn2" ><a href="registration.html">Buy</a></button>
+
+          </p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+        <img src="car2.jpg" alt="Car" style="width:100%">
+          <h4>Aulto K10</h4>
+          <p>
+              Company: Maruti Suzuki<br>
+              Rate: 450000/-<br>
+              Location: Sarpang<br>
+              <button class="btn2"><a href="registration.html">Buy</a></button>
+
+          </p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+        <img src="car3.jpg" alt="Car" style="width:100%">
+          <h4>Hilux</h4>
+          <p>
+              Company: Hyundai<br>
+              Rate: Nu.950000/-<br>
+              Location: Thimphu<br>
+              <button class="btn2"> <a href="registration.html">Buy</a></button>
+
+          </p>
+        </div>
+      </div>
+
+    <!-- END GRID -->
+    </div>
+    
+    <!-- END MAIN -->
+    </div>
+    
+
+    <!-- home section end here  -->
+
+
+ <!-- footer section start here  -->
+
+ <footer class="footer" id="contact">
+    <div class="share">
+        <p>Follow Us at: </p><br>
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+</footer>
+   
+
+    <!-- custom js file  -->
+    <script src="js/index.js"></script>
+    <script src="js/gallery.js"></script>
+
+</body>
+</html>

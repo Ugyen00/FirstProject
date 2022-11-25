@@ -1,0 +1,135 @@
+.title{
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+.contact-content{
+    width: 100%;
+    /* padding: 30px 15px 0px 30px; */
+}
+html{
+    color: skyblue;
+}
+
+.contact-content{
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-full{
+    padding: 150px 15px 20px 30px;
+
+}
+
+.con{
+    padding-bottom: 30px;
+}
+
+.number-mail{
+    display: flex;
+    padding-bottom: 10px;
+}
+.contact-full{
+    display: flex;
+}
+.contact{
+    width: 50%;
+}
+.details{
+    width: 100%;
+    padding-left: 30px;
+}
+.c-name input{
+    width: 100%;
+}
+input[type=email]{
+    width: 100%;
+}
+.c-comment textarea{
+    width: 100%;
+}
+label{
+    font-size: xx-small;
+}
+.c-number{
+    padding-right: 20px;
+}
+
+.c-name{
+    padding-top: 60px;
+}
+
+.c-email{
+    padding-top: 65px; 
+}
+
+.c-number2{
+    padding-top: 60px;
+}
+
+input[type=tel]{
+    width: 100%;
+}
+
+.c-comment{
+    padding-top: 65px;
+}
+
+.c-address{
+    padding-top: 45px;
+}
+.end{
+    padding: 23px 100px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 14px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.88;
+}
+      
+.btn:hover {
+    background-color: #ddd;
+}
+
+
+.number-mail, .c-address{
+    font-size: x-small;
+    padding-top: 30px;
+}
+.details input, .details textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    color: skyblue;
+    font-size: x-small;
+}
+.c-mail{
+    padding-left: 15%;
+    margin-left: 10px;
+}
+.map img{
+    width: 90%;
+    height: 340px;
+    border: none;
+    border-radius: 20px;
+}
+.c-name input, .c-email input, .c-number2 input, .c-comment textarea{
+    font-size: small;
+    font-family: 'Aldrich';
+    font-weight: bolder;
+}
+
+.c-name, .c-email, .c-number2, .c-comment{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
